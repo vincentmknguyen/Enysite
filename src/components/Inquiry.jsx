@@ -1,15 +1,6 @@
 import React, { useState } from "react";
 
 const Inquiry = (props) => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    message: "",
-  });
-
-  const [formReset, setFormReset] = useState(false);
-
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -21,19 +12,6 @@ const Inquiry = (props) => {
     e.preventDefault();
     // You can handle the form submission logic here, for now, just log the form data
     console.log("Form Data:", formData);
-
-    // Reset the form after successful submission
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      message: "",
-    });
-
-    // Set formReset to trigger the form reset
-    setFormReset(true);
-    // Reset formReset after a short delay (you can adjust the delay as needed)
-    setTimeout(() => setFormReset(false), 1000);
   };
 
   return (
