@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "../assets/e-logo.svg";
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
           <img
             className="w-24 sm:w-32"
             rel="preload"
-            src="src/assets/e-logo.svg"
+            src={logo}
             alt="Enysite logo"
           />
           <div className="text-sm sm:text-md md:text-lg flex flex-col gap-1">
