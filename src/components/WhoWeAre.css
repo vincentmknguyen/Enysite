@@ -1,0 +1,13 @@
+.about {
+  height: 80vh;
+  --s: 50px; /* the size on the corner */
+  --t: 5px; /* the thickness of the border */
+  --g: 20px; /* the gap between the border and image */
+  --mainblue: #2e42ff;
+  padding: calc(var(--g) + var(--t));
+  outline: var(--t) solid var(--mainblue); /* the color here */
+  outline-offset: calc(-1 * var(--t));
+  mask: conic-gradient(at var(--s) var(--s), #0000 75%, #000 0) 0 0 /
+      calc(100% - var(--s)) calc(100% - var(--s)),
+    linear-gradient(#000 0 0) content-box;
+}
