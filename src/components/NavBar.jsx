@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import logo from "../assets/e-logo.svg";
 import "./NavBar.css";
 
 const Nav = () => {
@@ -12,11 +13,7 @@ const Nav = () => {
     <header>
       <nav className="flex items-center justify-between">
         <Link to="/home" onClick={() => handleClick("/home")}>
-          <img
-            src="src/assets/e-logo.svg"
-            className="w-12"
-            alt="Enysite Logo"
-          />
+          <img src={logo} className="w-12" alt="Enysite Logo" />
         </Link>
         <ul className="hidden sm:flex gap-10 items-center text-lg font-light main-nav">
           <li className="hover:text-gray-600 duration-200">
@@ -51,7 +48,7 @@ const Nav = () => {
         >
           <img
             onClick={toggleNav}
-            src="src/assets/e-logo.svg"
+            src={logo}
             className="w-12 cursor-pointer"
             alt="Enysite Logo"
           />
