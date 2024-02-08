@@ -1,24 +1,10 @@
 import React, { useState } from "react";
 
 const Inquiry = (props) => {
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // You can handle the form submission logic here, for now, just log the form data
-    console.log("Form Data:", formData);
-  };
-
   return (
     <div>
       <h3 className="text-3xl font-bold">{props.children}</h3>
       <form
-        onSubmit={handleSubmit}
         action="/contact"
         name="contact"
         method="post"
@@ -33,8 +19,6 @@ const Inquiry = (props) => {
             type="text"
             id="name"
             name="name"
-            value={formData.name}
-            onChange={handleChange}
             className="mt-1 p-2 border-b focus:outline-none w-full"
             placeholder="Name"
             required
@@ -49,8 +33,6 @@ const Inquiry = (props) => {
             type="email"
             id="email"
             name="email"
-            value={formData.email}
-            onChange={handleChange}
             className="mt-1 p-2 border-b focus:outline-none w-full"
             placeholder="Email"
             required
@@ -65,8 +47,6 @@ const Inquiry = (props) => {
             type="tel"
             id="phone"
             name="phone"
-            value={formData.phone}
-            onChange={handleChange}
             className="mt-1 p-2 border-b focus:outline-none w-full"
             placeholder="Phone Number"
             required
@@ -80,8 +60,6 @@ const Inquiry = (props) => {
           <textarea
             id="message"
             name="message"
-            value={formData.message}
-            onChange={handleChange}
             className="mt-1 p-2 border rounded-md focus:outline-none w-full h-48"
             placeholder="Message"
             rows="4"
