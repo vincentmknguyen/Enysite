@@ -46,12 +46,16 @@ const Nav = () => {
             isResponsiveNav ? "responsive-nav" : ""
           } px-8 py-8 sm:hidden bg-mainblue flex flex-col gap-6 text-7xl font-bold text-darkblue mobile-nav`}
         >
-          <img
-            onClick={toggleNav}
-            src={logo}
-            className="w-12 cursor-pointer"
-            alt="Enysite Logo"
-          />
+          <li>
+            {" "}
+            <img
+              onClick={toggleNav}
+              src={logo}
+              className="w-12 cursor-pointer"
+              alt="Enysite Logo"
+            />
+          </li>
+
           <li className="hover:text-white duration-200">
             <Link to="/home" onClick={() => handleClick("/home")}>
               Home

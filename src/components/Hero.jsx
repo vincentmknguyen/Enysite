@@ -17,7 +17,7 @@ const Hero = () => {
           <div className="basis-full flex flex-col gap-6">
             <main>
               <h1 className="text-5xl lg:text-6xl">
-                We design and develop
+                We design and develop{" "}
                 <span className="text-mainblue">high-quality</span> websites.
               </h1>
             </main>
