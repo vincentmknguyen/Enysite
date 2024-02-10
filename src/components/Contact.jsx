@@ -1,8 +1,9 @@
 import Inquiry from "./Inquiry.jsx";
+import "./Contact.css";
 
 const Contact = () => {
   return (
-    <section className="mt-36 lg:mt-48 h-screen" id="contact">
+    <section className="mt-36 lg:mt-48 h-screen contact">
       <div className="flex flex-col md:flex-row gap-8">
         <div className="basis-full flex flex-col gap-4">
           <h2 className="text-5xl text-mainblue">Let's get started.</h2>

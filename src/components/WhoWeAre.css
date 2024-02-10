@@ -1,5 +1,6 @@
 .about {
   height: 80vh;
+  min-height: 600px;
   --s: 50px; /* the size on the corner */
   --t: 5px; /* the thickness of the border */
   --g: 20px; /* the gap between the border and image */
@@ -10,4 +11,25 @@
   mask: conic-gradient(at var(--s) var(--s), #0000 75%, #000 0) 0 0 /
       calc(100% - var(--s)) calc(100% - var(--s)),
     linear-gradient(#000 0 0) content-box;
+}
+
+@media (max-height: 650px) {
+  /* Your styles for heights shorter than 300px go here */
+  .about {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-height: 500px) {
+  /* Your styles for heights shorter than 300px go here */
+  .about {
+    margin-top: 20rem;
+  }
+}
+
+@media (max-height: 350px) {
+  /* Your styles for heights shorter than 300px go here */
+  .about {
+    margin-top: 30rem;
+  }
 }
