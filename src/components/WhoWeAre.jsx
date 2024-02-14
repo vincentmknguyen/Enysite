@@ -15,7 +15,7 @@ const WhoWeAre = () => {
 
   return (
     <section ref={ref1} className={`who-section ${inView1 ? "fadeIn" : ""}`}>
-      <div className="flex flex-col md:flex-row justify-center items-center gap-12 about p-12">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-4 about p-12">
         <div className="md:basis-full">
           <h2
             ref={ref2}
