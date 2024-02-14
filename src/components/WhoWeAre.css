@@ -33,3 +33,39 @@
     margin-top: 30rem;
   }
 }
+
+.who-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition-delay: 150ms;
+}
+
+.who-section.fadeIn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.title-section {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition-delay: 250ms;
+}
+
+.title-section.fadeIn {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.text-section {
+  opacity: 0;
+  transform: translateX(20px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition-delay: 250ms;
+}
+
+.text-section.fadeIn {
+  opacity: 1;
+  transform: translateX(0);
+}

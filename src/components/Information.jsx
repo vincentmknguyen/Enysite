@@ -1,15 +1,27 @@
 import React from "react";
+import { useInView } from "react-intersection-observer";
 import Card from "./Card";
 import "./Information.css";
 
 const Information = () => {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
   return (
     <section className="mt-36 px-8 sm:px-12 md:px-20 lg:px-24 xl:px-32 py-8 flex justify-center items-center">
       <div className="flex flex-col gap-10">
-        <h2 className="text-5xl text-mainblue text-center font-bold">
+        <h2
+          ref={ref}
+          className={`information-section ${
+            inView ? "fadeIn" : ""
+          }  text-5xl text-mainblue text-center font-bold `}
+        >
           More than just a website.
         </h2>
-        <p className="text-xl">
+        <p
+          ref={ref}
+          className={`information-section ${inView ? "fadeIn" : ""}  text-xl`}
+        >
           We don't just create websites, we work as your business partners and
           strive to bring you tangible{" "}
           <span className="text-mainblue">results</span>. We aim to help you
