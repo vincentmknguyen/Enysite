@@ -2,7 +2,7 @@
   opacity: 0;
   transform: translateX(20px);
   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-  transition-delay: 150ms;
+  transition-delay: 50ms;
 }
 
 .card-section {
@@ -12,19 +12,19 @@
 }
 
 .card1-section {
-  transition-delay: 200ms;
+  transition-delay: 100ms;
 }
 
 .card2-section {
-  transition-delay: 300ms;
+  transition-delay: 200ms;
 }
 
 .card3-section {
-  transition-delay: 400ms;
+  transition-delay: 300ms;
 }
 
 .card4-section {
-  transition-delay: 500ms;
+  transition-delay: 400ms;
 }
 
 .text-section.fadeIn {

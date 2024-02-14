@@ -7,19 +7,19 @@
 }
 
 .card1-section {
-  transition-delay: 200ms;
+  transition-delay: 100ms;
 }
 
 .card2-section {
-  transition-delay: 300ms;
+  transition-delay: 200ms;
 }
 
 .card3-section {
-  transition-delay: 400ms;
+  transition-delay: 300ms;
 }
 
 .card4-section {
-  transition-delay: 500ms;
+  transition-delay: 400ms;
 }
 
 .card-section.fadeIn {

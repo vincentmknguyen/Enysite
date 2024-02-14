@@ -1,6 +1,6 @@
 .about {
   height: 80vh;
-  min-height: 600px;
+  min-height: 800px;
   --s: 50px; /* the size on the corner */
   --t: 5px; /* the thickness of the border */
   --g: 20px; /* the gap between the border and image */
@@ -50,7 +50,7 @@
   opacity: 0;
   transform: translateX(-20px);
   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-  transition-delay: 250ms;
+  transition-delay: 150ms;
 }
 
 .title-section.fadeIn {
@@ -62,7 +62,7 @@
   opacity: 0;
   transform: translateX(20px);
   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-  transition-delay: 250ms;
+  transition-delay: 150ms;
 }
 
 .text-section.fadeIn {
