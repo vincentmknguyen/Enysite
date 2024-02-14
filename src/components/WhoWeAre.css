@@ -1,6 +1,6 @@
 .about {
   height: 80vh;
-  min-height: 800px;
+  min-height: 600px;
   --s: 50px; /* the size on the corner */
   --t: 5px; /* the thickness of the border */
   --g: 20px; /* the gap between the border and image */
@@ -14,23 +14,39 @@
 }
 
 @media (max-height: 650px) {
-  /* Your styles for heights shorter than 300px go here */
   .about {
     margin-top: 10rem;
   }
 }
 
 @media (max-height: 500px) {
-  /* Your styles for heights shorter than 300px go here */
   .about {
     margin-top: 20rem;
+    min-height: 800px;
   }
 }
 
 @media (max-height: 350px) {
-  /* Your styles for heights shorter than 300px go here */
   .about {
     margin-top: 30rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .about {
+    min-height: 800px;
+  }
+}
+
+@media (max-width: 340px) {
+  .about {
+    min-height: 1000px;
+  }
+}
+
+@media (max-width: 311px) {
+  .about {
+    min-height: 1200px;
   }
 }
 

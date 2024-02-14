@@ -33,11 +33,11 @@ const Hero = () => {
               ref={ref2}
               className={`text-section ${inView2 ? "fadeIn" : ""}`}
             >
-              <h1 className="text-5xl lg:text-6xl">
+              <h1 className="text-5xl lg:text-6xl font-bold">
                 <span className="text-mainblue">Custom</span> Web Design and
                 Development
               </h1>
-              <p className="text-xl md:text-2xl">
+              <p className="text-xl md:text-xl mt-4">
                 Transform your online presence with our all-in-one web solution.
                 Boost traffic with web design, development, and SEO marketing,
                 starting at $150/mo. Elevate your strategy and succeed online!
