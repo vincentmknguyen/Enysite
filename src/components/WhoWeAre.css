@@ -37,8 +37,8 @@
 .who-section {
   opacity: 0;
   transform: translateY(20px);
-  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-  transition-delay: 150ms;
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+  transition-delay: 100ms;
 }
 
 .who-section.fadeIn {
@@ -49,8 +49,8 @@
 .title-section {
   opacity: 0;
   transform: translateX(-20px);
-  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-  transition-delay: 150ms;
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+  transition-delay: 100ms;
 }
 
 .title-section.fadeIn {
@@ -61,7 +61,7 @@
 .text-section {
   opacity: 0;
   transform: translateX(20px);
-  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
   transition-delay: 150ms;
 }
 

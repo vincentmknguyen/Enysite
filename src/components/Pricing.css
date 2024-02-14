@@ -1,14 +1,14 @@
 .text-section {
   opacity: 0;
   transform: translateX(20px);
-  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
   transition-delay: 50ms;
 }
 
 .card-section {
   opacity: 0;
   transform: translateX(20px);
-  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
 .card1-section {
