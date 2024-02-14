@@ -17,16 +17,15 @@ const Hero = () => {
           <div className="basis-full flex flex-col gap-6">
             <main>
               <h1 className="text-5xl lg:text-6xl">
-                Unlocking Excellence in Sacramento{" "}
-                <span className="text-mainblue">Web Design</span>
+                <span className="text-mainblue">Custom</span> Web Design and
+                Development
               </h1>
             </main>
 
             <p className="text-xl md:text-2xl">
-              Elevate your digital presence with Enysite, your premier
-              Sacramento web design partner. We specialize in crafting
-              high-quality websites that captivate, engage, and convert. Explore
-              the power of a seamless online experience tailored for your brand.
+              Transform your online presence with our all-in-one web solution.
+              Boost traffic with web design, development, and SEO marketing,
+              starting at $150/mo. Elevate your strategy and succeed online!
             </p>
           </div>
         </div>

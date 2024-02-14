@@ -7,7 +7,8 @@ import "../App.css";
 
 function ContactPage() {
   useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+    document.title = "Full Website Services, Sacramento | Enysite";
   }, []);
 
   return (

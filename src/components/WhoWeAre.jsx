@@ -8,14 +8,13 @@ const WhoWeAre = () => {
           <h2 className="text-4xl text-mainblue text-center">Who are we?</h2>
         </div>
         <div className="md:basis-full">
-          <h2 className="text-2xl font-bold">
-            Located in Northern California, Serving Sacramento
-          </h2>
           <p className="text-xl">
-            At Enysite, we are more than just a web design and development
-            agency – we are your dedicated partners in online success. Nestled
-            in the heart of Northern California, we understand the pulse of
-            Sacramento's business landscape.
+            We specialize in hassle free, results-driven websites for small
+            businesses. With our monthly subscription based model, we aim to
+            offer high-quality, high-end websites without the high price. Above
+            all we focus on results. Meaning we hand-code line by line to
+            optimize performance, which brings in more traffic to your site and
+            brings you more business.
           </p>
         </div>
       </div>

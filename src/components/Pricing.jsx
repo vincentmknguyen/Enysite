@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className="mt-36 lg:mt-48" id="pricing">
       <h2 className="text-mainblue text-4xl font-bold border-l-4 pl-4 border-mainblue">
-        Pricing
+        $0 Down, $150/mo. That's it.
       </h2>
       <p className="text-xl mt-6">
         Enysite is dedicated to providing transparency and affordability to
@@ -27,7 +27,7 @@ const About = () => {
       <div className="mt-20 grid grid-cols-1 gap-24 sm:gap-32 xl:gap-28 sm:grid-cols-2 xl:grid-cols-4">
         <div className="max-w-2xl">
           <div className="flex items-center gap-4">
-            <span className="material-symbols-outlined text-5xl text-lightblue">
+            <span className="material-symbols-outlined text-5xl text-mainblue">
               dvr
             </span>
             <h3 className="text-xl font-medium">Hosting Included</h3>
@@ -40,7 +40,7 @@ const About = () => {
 
         <div className="max-w-lg">
           <div className="flex items-center gap-4">
-            <span className="material-symbols-outlined text-5xl text-lightblue">
+            <span className="material-symbols-outlined text-5xl text-mainblue">
               edit_square
             </span>
             <h3 className="text-xl font-medium">Unlimited Edits</h3>
@@ -53,7 +53,7 @@ const About = () => {
 
         <div className="max-w-lg">
           <div className="flex items-center gap-4">
-            <span className="material-symbols-outlined text-5xl text-lightblue">
+            <span className="material-symbols-outlined text-5xl text-mainblue">
               menu_book
             </span>
             <h3 className="text-xl font-medium">Design & Development</h3>
@@ -66,7 +66,7 @@ const About = () => {
 
         <div className="max-w-lg">
           <div className="flex items-center gap-4">
-            <span className="material-symbols-outlined text-5xl text-lightblue">
+            <span className="material-symbols-outlined text-5xl text-mainblue">
               analytics
             </span>
             <h3 className="text-xl font-medium">Google Analytics</h3>

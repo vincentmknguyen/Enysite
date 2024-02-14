@@ -7,6 +7,7 @@ export default {
         lightblue: "#1867de",
         mainblue: "#2E42FF",
         darkblue: "#1a2691",
+        test: "#fff2eb",
       },
     },
   },
