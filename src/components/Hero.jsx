@@ -21,7 +21,7 @@ const Hero = () => {
               ref={ref1}
               className={`image-section ${
                 inView1 ? "fadeIn" : ""
-              } w-max h-max md:max-w-sm lg:max-w-md`}
+              } hero-img md:max-w-sm lg:max-w-md`}
               rel="preload"
               src={logo}
               alt="Enysite logo"

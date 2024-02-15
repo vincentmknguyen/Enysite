@@ -28,7 +28,7 @@ const Footer = () => {
 
           <div className="flex flex-col gap-6 w-full">
             <div className="border-b border-white w-9/12">
-              <h4 className="text-2xl mb-2">Links</h4>
+              <h3 className="text-2xl mb-2">Links</h3>
             </div>
 
             <ul className="text-lg flex flex-col gap-2">
@@ -46,7 +46,7 @@ const Footer = () => {
 
           <div className="hidden sm:flex flex-col gap-6 w-full">
             <div className="border-b border-white w-9/12">
-              <h4 className="text-2xl mb-2">Services</h4>
+              <h3 className="text-2xl mb-2">Services</h3>
             </div>
 
             <ul className="text-lg flex flex-col gap-2">
