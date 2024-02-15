@@ -4,6 +4,7 @@ import ServicesText from "./ServicesText.jsx";
 import PricingCard from "./PricingCard.jsx";
 import livemusic from "../assets/livemusic.webp";
 import iphone from "../assets/iphone.webp";
+import Statement from "../components/Statement.jsx";
 import "./ServicesContent.css";
 
 function ServicesContent() {
@@ -23,6 +24,7 @@ function ServicesContent() {
   return (
     <div>
       <main>
+        <Statement />
         <p
           ref={ref1}
           className={`${inView1 ? "fadeIn" : ""} card-section text-xl mt-16`}

@@ -6,6 +6,7 @@ import Information from "../components/Information.jsx";
 import Pricing from "../components/Pricing.jsx";
 import Contact from "../components/Contact.jsx";
 import Footer from "../components/Footer.jsx";
+import HomeFAQ from "../components/HomeFAQ.jsx";
 import "../App.css";
 
 function Home() {
@@ -24,6 +25,7 @@ function Home() {
       <div className="px-8 sm:px-12 md:px-20 lg:px-24 xl:px-32 py-8">
         <Pricing />
         <Contact />
+        <HomeFAQ />
       </div>
       <Footer />
     </>

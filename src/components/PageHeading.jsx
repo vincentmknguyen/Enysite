@@ -13,7 +13,7 @@ const PageHeading = (props) => {
     >
       <div className="p-12 page-heading">
         <div>
-          <h1 className="text-4xl text-mainblue text-center">
+          <h1 className="text-4xl text-mainblue text-center font-bold">
             {props.children}
           </h1>
         </div>
