@@ -13,7 +13,7 @@ const Nav = () => {
     <header>
       <nav className="flex items-center justify-between">
         <Link to="/home" onClick={() => handleClick("/home")}>
-          <img src={logo} className="w-12 nav-logo logo" alt="Enysite Logo" />
+          <img src={logo} className="w-12 nav-logo logo" alt="Enysite" />
         </Link>
         <ul className="hidden sm:flex gap-10 items-center text-lg font-light main-nav">
           <li className="hover:text-gray-600 duration-200">
@@ -52,7 +52,7 @@ const Nav = () => {
               onClick={toggleNav}
               src={logo}
               className="w-12 cursor-pointer logo"
-              alt="Enysite Logo"
+              alt="Enysite"
             />
           </li>
 
