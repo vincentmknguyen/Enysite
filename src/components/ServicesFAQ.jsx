@@ -15,7 +15,9 @@ function ServicesFAQ() {
     >
       <div className="grid lg:grid-cols-2 gap-4">
         <div className="heading">
-          <h2 className="text-4xl font-bold">Frequently asked questions</h2>
+          <h2 className="text-4xl font-bold text-mainblue">
+            Frequently asked questions
+          </h2>
           <p>
             Can't find the answer you were looking for?{" "}
             <Link to="/contact" className="text-mainblue">
