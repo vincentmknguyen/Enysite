@@ -8,7 +8,7 @@ import "../App.css";
 function ContactPage() {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "Full Website Services, Sacramento | Enysite";
+    document.title = "Sacramento Website and Digital Marketing Services";
   }, []);
 
   return (

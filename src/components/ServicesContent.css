@@ -4,20 +4,8 @@
   transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
-.card1-section {
+.card-section {
   transition-delay: 100ms;
-}
-
-.card2-section {
-  transition-delay: 200ms;
-}
-
-.card3-section {
-  transition-delay: 300ms;
-}
-
-.card4-section {
-  transition-delay: 400ms;
 }
 
 .card-section.fadeIn {

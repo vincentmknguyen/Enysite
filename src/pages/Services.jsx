@@ -8,7 +8,7 @@ import "../App.css";
 function Services() {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "Web Design and Development Services | Enysite Sacramento";
+    document.title = "Sacramento Web Design and Development Services";
   }, []);
 
   return (

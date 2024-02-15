@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/e-logo.svg";
 
@@ -14,8 +15,14 @@ const Footer = () => {
               alt="Enysite logo"
             />
             <div className="text-sm sm:text-md md:text-lg flex flex-col gap-1">
-              <p>enysitewebdesigns@gmail.com</p>
-              <p>+1 408-646-1221</p>
+              <p className="text-xl">Sacramento, San Jose, and Elk Grove.</p>
+              <span>
+                <a href="tel:+14086461221">+1 408-646-1221</a>
+              </span>
+
+              <p>
+                <span>enysitewebdesigns@gmail.com</span>
+              </p>
             </div>
           </div>
 

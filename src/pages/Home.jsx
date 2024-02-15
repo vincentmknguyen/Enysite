@@ -10,8 +10,7 @@ import "../App.css";
 
 function Home() {
   useEffect(() => {
-    document.title =
-      "Web Design and Development for Small Businesses Sacramento | Enysite";
+    document.title = "Sacramento Web Design for Small Businesses";
   }, []);
 
   return (
