@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/e-logo.svg";
+import "./Footer.css";
 
 const Footer = () => {
   return (
