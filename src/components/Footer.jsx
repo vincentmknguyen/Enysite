@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex sm:justify-between gap-8">
           <div className="flex flex-col gap-4">
             <img
-              className="w-24 sm:w-32"
+              className="w-24 sm:w-32 footer-logo"
               rel="preload"
               src={logo}
               alt="Enysite logo"
