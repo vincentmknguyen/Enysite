@@ -3,7 +3,6 @@ import NavBar from "../components/NavBar.jsx";
 import PageHeading from "../components/PageHeading.jsx";
 import ServicesContent from "../components/ServicesContent.jsx";
 import Footer from "../components/Footer.jsx";
-import ServicesFAQ from "../components/ServicesFAQ.jsx";
 import "../App.css";
 
 function Services() {
@@ -18,7 +17,6 @@ function Services() {
         <NavBar />
         <PageHeading children="Services" />
         <ServicesContent />
-        <ServicesFAQ />
       </div>
       <Footer />
     </>

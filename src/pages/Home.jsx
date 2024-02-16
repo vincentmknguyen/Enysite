@@ -24,8 +24,8 @@ function Home() {
       <Information />
       <div className="px-8 sm:px-12 md:px-20 lg:px-24 xl:px-32 py-8">
         <Pricing />
-        <Contact />
         <HomeFAQ />
+        <Contact />
       </div>
       <Footer />
     </>

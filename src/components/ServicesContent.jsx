@@ -5,6 +5,7 @@ import PricingCard from "./PricingCard.jsx";
 import livemusic from "../assets/livemusic.webp";
 import iphone from "../assets/iphone.webp";
 import Statement from "../components/Statement.jsx";
+import ServicesFAQ from "../components/ServicesFAQ.jsx";
 import "./ServicesContent.css";
 
 function ServicesContent() {
@@ -55,6 +56,7 @@ function ServicesContent() {
             extraClasses="md:flex-row-reverse"
           />
         </div>
+        <ServicesFAQ />
 
         <div ref={ref4} className={`${inView4 ? "fadeIn" : ""} card-section`}>
           <PricingCard />

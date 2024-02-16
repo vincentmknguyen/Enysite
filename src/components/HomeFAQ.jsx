@@ -11,7 +11,7 @@ function ServicesFAQ() {
   return (
     <section
       ref={ref}
-      className={`fade-section ${inView ? "fadeIn" : ""} mb-32`}
+      className={`fade-section ${inView ? "fadeIn" : ""} mt-48`}
     >
       <div className="grid lg:grid-cols-2 gap-4">
         <div className="heading">
